@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+section::before{
+    content: "";
+    position: absolute;
+    background-color: grey;
+    z-index: -1;
+    opacity: 0.12;
+    height: 120%;
+    width: 100%;
+}
+.logi{
+    margin-left: -300px;
+    
+}
+
+.logi button{
+    height: 32px;
+    width: 110px;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu';
+    font-weight: 800;
+    /* border-radius: 5px; */
+    border: none;
+    opacity: 1;
+    /* background-color: rgb(6, 249, 6); */
+
+}
+
+.logi button:hover{
+    cursor: pointer ;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    border: 1px solid transparent;
+    padding: 25px;
+    background-color: white;
+    /* box-shadow: 5px 5px white; */
+}
+
+#login img{
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+#login h2{
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+}
+
+#username{
+    margin-top: 28px;
+    width: 348px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+#password{
+    margin-top: 15px;
+    width: 348px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+#submit{
+    margin-top: 15px;
+    width: 348px;
+    height: 40px;
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(215deg, #546e7a, #37474f);
+    cursor: pointer;
+    font-family: 'Ubuntu';
+}
+
+#submit:hover{
+    background: #546e7a;
+}
+
+#Forgot{
+    display: flex;
+    margin-top: 20px;
+}
+
+#Forgot a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 0.85rem;
+    color: #546e7a;
+}
+
+#Forgot-1{
+    margin-right: 190px;
+}
+
+#another-sign-in-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#another-sign-in-option p{
+    font-family: 'Ubuntu';
+    font-size: 0.85rem;
+    color: #8da9b6;
+}
+
+#icons{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#icons a{
+    color: #8da9b6;
+    transition: all 0.7s ease-in-out 0s;
+    
+}
+
+#icons-1{
+    position: relative;
+    margin-right: 21px;
+
+} 
+
+#icons-2{
+    position: relative;
+    margin-right: 21px;
+}
+
+#icons-3{
+    position: relative;
+    margin-right: 21px;
+}
+
+#icons a:hover{
+    
+    height:15px;
+    width: 15px;
+}
+
+#icons-1:hover{
+    color:red;
+}
+
+#icons-2:hover{
+    color:black;
+}
+
+#icons-3:hover{
+    color:blue;
+}
+
+#icons-4:hover{
+    color:grey;
+}
+
+#captcha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#captcha p{
+    margin-bottom: 6px;
+}
+
+#captcha p a{
+    color: #8da9b6;
+}
+
+#captcha p a:hover{
+    color:red
+}
